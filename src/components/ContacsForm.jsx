@@ -43,7 +43,9 @@ const ContacsForm = () => {
             console.log(error)
         }
         //isvalyti laukus
-
+        setName('');
+        setEmail('');
+        setMessage('');
     }
 
     return (
